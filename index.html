@@ -54,7 +54,7 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title"
                         style="display: flex;flex-direction: row;align-items: center;justify-content: center;margin-bottom: 5px;"><img
-                            src="./static/images/UAVIT-1M.png" width="60" height="60" style="margin-right: 25px;margin-bottom: 6px;">UAVBench and UAVIT-1M:</h1>
+                            src="./static/images/UAVIT-1M.png" width="80" height="80" style="margin-right: 25px;margin-bottom: 6px;">UAVBench and UAVIT-1M:</h1>
 <!--             <h1 class="title is-1 publication-title">UAVBench and UAVIT-1M:</h1> -->
              <h2 class="title is-2 publication-title">A Low-Altitude UAV Vision-Language Benchmark and Instruction-Tuning Dataset for MLLMs</h2>
 <!--              <h5 class="subtitle is-5 publication-awards">NeurIPS 2025</h5> -->
@@ -188,22 +188,7 @@
 
 
   
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -213,7 +198,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Multimodal Large Language Models (MLLMs) have made significant strides in natural images and satellite remote sensing images, 
+            allowing humans to hold a meaningful dialogue based on given visual content. 
+            However, understanding low-altitude drone scenarios remains a challenge, even for advanced MLLMs. 
+            Existing benchmarks primarily focus on a few specific low-altitude visual tasks, which cannot fully assess the ability of MLLMs in real-world low-altitude UAV applications. 
+            Therefore, we introduce UAVBench, a comprehensive benchmark, and UAVIT-1M, a large-scale instruction tuning dataset, 
+            designed to evaluate and improve MLLMs’ abilities in low-altitude UAV visual and vision-language tasks. 
+            UAVBench comprises 43 test units and 966k high-quality data samples across 10 tasks at the image-level and region-level. 
+            UAVIT-1M consists of approximately 1.24 million diverse instructions, covering 789k multi-scene low-altitude UAV images and about 2,000 types of spatial resolutions with 11 distinct tasks, i.e, image/region classification, image/region captioning, VQA, object detection, visual grounding, etc. 
+            UAVBench and UAVIT-1M feature pure real-world visual images and rich weather conditions, and involve manual sampling verification to ensure high quality. 
+            Our in-depth analysis of 10 state-of-the-art MLLMs using UAVBench reveals that existing MLLMs cannot generate accurate conversations about low-altitude visual content. 
+            Extensive experiments demonstrate that fine-tuning MLLMs on UAVIT-1M significantly addresses this gap. 
+            Our contributions pave the way for bridging the gap between current MLLMs and low-altitude UAV real-world application demands.
           </p>
         </div>
       </div>
