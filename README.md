@@ -1,1 +1,1 @@
-# UAVBench and UAVIT-1M: A Low-Altitude UAV Vision-Language Benchmark and Instruction-Tuning Dataset for MLLMs
+# UAVBench and UAVIT-1M: Benchmarking and Enhancing MLLMs for Low-Altitude UAV Vision-Language Understanding
